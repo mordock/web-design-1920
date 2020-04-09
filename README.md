@@ -1,3 +1,21 @@
+#Week 1 verslag
+
+-Beschrijf je ‘mens’, wie is hij/zij? Wat doen ze? Opvallende dingen? Karakter beschrijving, irritaties, type humor, schoenmaat …  
+-Een verslagje van de testsessie.  
+-Beschrijf de test. Hoe kun je (remote) user testen? Welke dingen gingen goed, welke dingen kunnen beter, tips & trick.  
+# Roger
+Roger is een specialist in duurzame energie, specifiek warmte pompen die onderandere gebruikt worden voor grote kantoren. Hier is hij enkele jaren geleden mee gestopt omdat de programma die hij nodig had om onderandere te lezen niet goed te gebruiken waren op de beveiligde systemen waar hij op moest werken. Sindsdien besteed hij meer tijd aan beeldhouwen en heeft hij nu ook een passie voor accessibility. 
+De aandoening die hij heeft is erfelijk, in het begin van zijn leven had hij er nog weinig last van maar het is over de jaren erger geworden. 
+In het allendaagse leven liggen zijn irritaties onderandere bij de technologien die hij gebruikt. Hij gebruikt bijvoorbeeld een darkmode omdat hij hiermee beter kan lezen, maar dit invert ook plaatjes die praktisch niet meer te zienzijn. Of zijn text to speech die niet altijd goed werkt waardoor sommige websites erg inaccessible worden. 
+
+# Sessie
+De test sessie begon dat wij vroegen dat Roger zelf zijn aandoening kon beschrijven en wat dingen kon vertellen. Hier leerde wij precies wat hij had en wat hij nog wel kon. Hier leerde wij bijvoorbeeld dat zijn rechter oog nog maar voor 2% werkt, maar de linker voor nu nog redelijk werkt, maar wel achteruit gaat. 
+Daarna zij we dingen over de technologies die hij gebruikt gaan vragen zoals wat voor screenreader hij gebruikt en hoe hij zijn computer gebruikt. 
+Aan het einde hebben we wat over de cases gepraat, wat hij wil in een grafiek of tabel en wat effectief voor hem zou zijn. Hier kwam uit dat hij moeite heeft met het bekijken van grafieken en een conclusie hier uit halen. Het zou bijvoorbeeld helpen als er in tekst wordt uitgelegd wat er gebeurd met de data. Deze tekst moet dan wel alleen harde cijfer bevatten zoals 'lijn x stijgt'. Ook zo zouden grafieken en tabellen geen plaatjes moeten zijn zodat hij er doorheen kan tabben.   
+
+# Remote testen
+Deze week hebben we nog geen echte test gedaan met websites, we hebben vooral informatie verzamelt. We hebben Roger wel geprobeert zijn screen te laten sharen zodat wij met een voorbeeld konden meekijken. Dit duurde even en iets ging niet helemaal goed wat veel interessante informatie gaf. Hoewel hij goed met computer kan omgaan heeft hij vanwege zijn aandoening soms moeite met UI elementen op het scherm vinden. Dit is iets waar wij de volgende keer op moeten letten voor het echte testen. 
+
 # Web Design @cmda-minor-web 1920
 //Interactie ontwerpen: Rapid prototypen en testen met echte mensen
 
