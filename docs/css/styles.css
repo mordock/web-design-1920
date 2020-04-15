@@ -71,6 +71,7 @@ section#lecturers img {
   border-width:0 0 1px 1px;
   border-style:solid;
   border-color: red;
+  width: 80%;
 }
 
 #table3 th, #table3 td{
