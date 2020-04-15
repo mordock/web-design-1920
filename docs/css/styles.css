@@ -38,50 +38,40 @@ h3:focus{
   text-decoration: underline 5px red;
 }
 
-ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  list-style-type: none;
-  padding: 0;
-  margin: 0 -1rem;
-}
-ul li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 1rem;
-}
-ul img {
-  border: 2px solid var(--light);
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-img {
-  max-width: 100%;
-}
-
-section#lecturers img {
-  border-radius: 100%;
-  margin-right: 1em;
-}
-
 #table3{
-  color: white;
-  border-width:0 0 1px 1px;
+  color: black;
+  border-width:0 0 3px 3px;
   border-style:solid;
   border-color: red;
   width: 100%;
+  font-size: 1.5em;
+}
+
+#table3 th{
+  background-color: lightgrey;
 }
 
 #table3 th, #table3 td{
-  border-width:1px 1px 0 0;
+  border-width:3px 3px 0 0;
   border-style:solid;
   border-color:red;
+
+}
+
+#table3 th:focus{
+  background-color: springgreen;
+}
+
+#table3 tr:focus{
+  background-color: springgreen;
+}
+
+#table3 td:focus{
+  background-color: springgreen;
 }
 
 #table2{
-  border-width:0 0 1px 1px;
+  border-width:0 0 2px 2px;
   border-style:solid;
   border-color: yellow;
   color: white;
@@ -92,6 +82,18 @@ section#lecturers img {
   border-width:1px 1px 0 0;
   border-style:solid;
   border-color:yellow;
+}
+
+#table2 th:focus{
+  color: black;
+}
+
+#table2 tr:focus{
+  color: black;
+}
+
+#table2 td:focus{
+  color: black;
 }
 
 #table1{
@@ -106,7 +108,6 @@ section#lecturers img {
 #table1 th{
   background: #666666;;
   color:#fff;
-  font-size: 1em;
 }
 
 #table1 th:focus{
@@ -127,11 +128,10 @@ section#lecturers img {
   border-style:solid;
   border-color:orange;
   padding:4px 2px;
-  font-size: 1em;
 }
   
 .subTotatlRow .sub-total-text{
-  text-align:right;
+  text-align:right !important; 
 }
 
 .hidden{

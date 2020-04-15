@@ -24,7 +24,7 @@ backButton.addEventListener('click', function(){
 button2.addEventListener('click', function(){
     table2.classList.add('hidden');
     table3.classList.remove('hidden');
-    document.body.style.background = 'black';
+    document.body.style.background = 'white';
 });
 
 backButton3.addEventListener('click', function(){
