@@ -1,6 +1,7 @@
 let button = document.getElementById('nextButton');
 let button2 = document.getElementById('nextButton2');
 let backButton = document.getElementById('backButton2');
+let backButton3 = document.getElementById('backButton3');
 let table1 = document.getElementById('table1Box');
 let table2 = document.getElementById('table2Box');
 let table3 = document.getElementById('table3Box');
@@ -24,4 +25,11 @@ button2.addEventListener('click', function(){
     table2.classList.add('hidden');
     table3.classList.remove('hidden');
     document.body.style.background = 'black';
+});
+
+backButton3.addEventListener('click', function(){
+    table2.classList.remove('hidden');
+    table3.classList.add('hidden');
+    document.body.style.background = 'lightgrey';
+
 });

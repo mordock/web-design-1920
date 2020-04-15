@@ -17,7 +17,7 @@ main {
 header {
   background: var(--course);
   color: var(--dark);
-  height: 30vh;
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,7 +71,7 @@ section#lecturers img {
   border-width:0 0 1px 1px;
   border-style:solid;
   border-color: red;
-  width: 80%;
+  width: 100%;
 }
 
 #table3 th, #table3 td{
