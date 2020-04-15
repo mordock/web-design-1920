@@ -6,92 +6,139 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
   <link rel="stylesheet" href="css/styles.css">
-  <title>Better tables</title>
+  <title>Tabellen test</title>
 
 </head>
   <body>
     <header>
-      <h1>Tables</h1>
+      <h1>Tabellen</h1>
     </header>
     <main>
-      <table cellpadding="0" cellspacing="0">
+      <div id="table1Box">
+      <h3 tabindex="0">Hieronder zijn de corona zieken en sterfte getallen van maart en april te vinden. April is nog niet compleet. De maanden zijn in twee periodes opgesplitst en dan in individuele weken. Na elke maand is een sub totaal.<br>
+      In maart groeien de zieken en de sterfte gevallen extreem, elke week is er een verdubbeling of meer. In April stagneren de getallen. De week met de meeste zieken is Maart, week 4. De week met de meeste sterfgevallen is April week 1.
+      </h3>
+
+      <table id="table1" cellpadding="0" cellspacing="0">
+        <caption>Corona gevallen en sterfe cijfers</caption>
         <thead>
           <tr>      
-            <th>Firm</th>
-            <th>Org</th>
-            <th>Lob</th>
-            <th>Sub Lob</th>
-            <th>Business Plans</th>
-            <th>Business Components</th>
+            <th tabindex="0">Totale tijd</th>
+            <th tabindex="0">Maand</th>
+            <th tabindex="0">periode</th>
+            <th tabindex="0">week</th>
+            <th tabindex="0">Zieken</th>
+            <th tabindex="0">Sterfte gevallen</th>
           </tr>
         </thead>
       
         <tbody>
           <tr>
-            <td rowspan="11">JPMC</td>
-            <td rowspan="5">CST</td>
-            <td rowspan="3">CT</th>
-            <td>ADS</td>
-            <td>1</td>
-            <td>10</td>
+            <td rowspan="11" tabindex="0">Maart-April</td>
+            <td rowspan="4" tabindex="0">maart</td>
+            <td rowspan="2" tabindex="0">1-2</th>
+            <td tabindex="0">week 1</td>
+            <td tabindex="0">189</td>
+            <td tabindex="0">1</td>
           </tr>
           <tr>
-            <td>BTO</th>
-            <td>2</td>
-            <td>15</td>
-          </tr>
-          <tr>
-            <td>CSI</th>
-            <td>3</td>
-            <td>6</td>
+            <td tabindex="0">week 2</th>
+            <td tabindex="0">947</td>
+            <td tabindex="0">19</td>
           </tr>
         <tr>
-            <td rowspan="2">VCT</th>
-            <td>ADS</td>
-            <td>4</td>
-            <td>10</td>
+            <td rowspan="2" tabindex="0">2-2</th>
+            <td tabindex="0">week 3</td>
+            <td tabindex="0">3033</td>
+            <td tabindex="0">159</td>
           </tr>
           <tr>
-            <td>BTO</th>
-            <td>5</td>
-            <td>15</td>
+            <td tabindex="0">week 4</th>
+            <td tabindex="0">8393</td>
+            <td tabindex="0">860</td>
           </tr>
           <tr class="subTotatlRow">
-            <td colspan="3" class="sub-total-text">Sub Total</th>
-            <td>6</td>
-            <td>15</td>
+            <td colspan="3" class="sub-total-text" tabindex="0">Sub Totaal</th>
+            <td tabindex="0">12595</td>
+            <td tabindex="0">1039</td>
           </tr>
        <tr>
-            <td rowspan="4">CST</td>
-            <td rowspan="3">CT</th>
-            <td>ADS</td>
-            <td>7</td>
-            <td>10</td>
+            <td rowspan="4" tabindex="0">april</td>
+            <td rowspan="2" tabindex="0">1-2</th>
+            <td tabindex="0">week 1</td>
+            <td tabindex="0">6985</td>
+            <td tabindex="0">1062</td>
           </tr>
           <tr>
-            <td>BTO</th>
-            <td>8</td>
-            <td>15</td>
-          </tr>
-          <tr>
-            <td>CSI</th>
-            <td>9</td>
-            <td>6</td>
+            <td tabindex="0">week 2</th>
+            <td tabindex="0">7005</td>
+            <td tabindex="0">722</td>
           </tr>
         <tr>
-            <td rowspan="1">VCT</th>
-            <td>ADS</td>
-            <td>10</td>
-            <td>10</td>
+            <td rowspan="2" tabindex="0">2-2</th>
+            <td tabindex="0">week 3</td>
+            <td tabindex="0">0</td>
+            <td tabindex="0">0</td>
+          </tr>
+          <tr>
+            <td tabindex="0">week 4</th>
+            <td tabindex="0">0</td>
+            <td tabindex="0">0</td>
           </tr>
           <tr class="subTotatlRow">
-            <td colspan="3" class="sub-total-text">Sub Total</th>
-            <td>11</td>
-            <td>15</td>
+            <td colspan="3" class="sub-total-text" tabindex="0">Sub Totaal</th>
+            <td tabindex="0">26585</td>
+            <td tabindex="0">2823</td>
           </tr>
         </tbody>
       </table>
 
+      <button id="nextButton">Volgende</button>
+
+    </div>
+      
+    <div id="table2" class="hidden">   
+      <table>
+        <tr>
+          <td>This</td>
+          <td>Little</td>
+          <td>Piggy</td>
+          <td>Went</td>
+          <td>To</td>
+          <td>Market</td>
+        </tr>
+        <tr>
+          <td colspan="2">This</td>
+          <td>Little</td>
+          <td>Piggy</td>
+          <td>Went</td>
+          <td>To</td>
+        </tr>
+          <tr>
+          <td colspan="4">This</td>
+          <td rowspan="3">Little</td>
+          <td>Piggy</td>
+        </tr>
+        <tr>
+          <td rowspan="2">This</td>
+          <td>Little</td>
+          <td>Piggy</td>
+          <td>Went</td>
+          <td>To</td>
+        </tr>
+        <tr>
+          <td>Little</td>
+          <td>Piggy</td>
+          <td>Went</td>
+          <td>To</td>
+        </tr>
+      </table>
+      <button id="TerugButton2">Terug</button>
+      <button id="nextButton2">Volgende</button>
+    </div>
+
+
+    <script src="./js/index.js"></script>
     <footer>
     </footer>
     </main>
