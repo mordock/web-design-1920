@@ -23,18 +23,18 @@
         <caption>Corona gevallen en sterfe cijfers</caption>
         <thead>
           <tr>      
-            <th tabindex="0">Totale tijd</th>
-            <th tabindex="0">Maand</th>
-            <th tabindex="0">periode</th>
-            <th tabindex="0">week</th>
-            <th tabindex="0">Zieken</th>
-            <th tabindex="0">Sterfte gevallen</th>
+            <th tabindex="0" scope="col">Totale tijd</th>
+            <th tabindex="0" scope="col">Maand</th>
+            <th tabindex="0" scope="col">periode</th>
+            <th tabindex="0" scope="col">week</th>
+            <th tabindex="0" scope="col">Zieken</th>
+            <th tabindex="0" scope="col">Sterfte gevallen</th>
           </tr>
         </thead>
       
         <tbody>
           <tr>
-            <td rowspan="11" tabindex="0">Maart-April</td>
+            <td scope="row" rowspan="11" tabindex="0">Maart-April</td>
             <td rowspan="4" tabindex="0">maart</td>
             <td rowspan="2" tabindex="0">1-2</th>
             <td tabindex="0">week 1</td>
@@ -97,44 +97,109 @@
 
     </div>
       
-    <div id="table2" class="hidden">   
-      <table>
+    <div id="table2Box" class="hidden">   
+      <table id="table2">
         <tr>
-          <td>This</td>
-          <td>Little</td>
-          <td>Piggy</td>
-          <td>Went</td>
-          <td>To</td>
-          <td>Market</td>
+          <td tabindex="0">This</td>
+          <td tabindex="0">Little</td>
+          <td tabindex="0">Piggy</td>
+          <td tabindex="0">Went</td>
+          <td tabindex="0">To</td>
+          <td tabindex="0">The</td>
+          <td tabindex="0">Market</td>
         </tr>
         <tr>
-          <td colspan="2">This</td>
-          <td>Little</td>
-          <td>Piggy</td>
-          <td>Went</td>
-          <td>To</td>
+          <td colspan="2" tabindex="0">This</td>
+          <td tabindex="0">Little</td>
+          <td tabindex="0">Piggy</td>
+          <td tabindex="0">Went</td>
+          <td tabindex="0">To</td>
+          <td tabindex="0">The</td>
         </tr>
           <tr>
-          <td colspan="4">This</td>
-          <td rowspan="3">Little</td>
-          <td>Piggy</td>
+          <td colspan="4" tabindex="0">This</td>
+          <td rowspan="3" tabindex="0">Little</td>
+          <td tabindex="0">Piggy</td>
+          <td tabindex="0">Went</td>
         </tr>
         <tr>
-          <td rowspan="2">This</td>
-          <td>Little</td>
-          <td>Piggy</td>
-          <td>Went</td>
-          <td>To</td>
+          <td rowspan="2" tabindex="0">This</td>
+          <td tabindex="0">Little</td>
+          <td tabindex="0">Piggy</td>
+          <td tabindex="0">Went</td>
+          <td tabindex="0">To</td>
+          <td rowspan="2" tabindex="0">The</td>
         </tr>
         <tr>
-          <td>Little</td>
-          <td>Piggy</td>
-          <td>Went</td>
-          <td>To</td>
+          <td tabindex="0">Little</td>
+          <td tabindex="0">Piggy</td>
+          <td tabindex="0">Went</td>
+          <td tabindex="0">To</td>
         </tr>
       </table>
-      <button id="TerugButton2">Terug</button>
+      <button id="backButton2">Terug</button>
       <button id="nextButton2">Volgende</button>
+    </div>
+
+    <div id="table3Box" class="hidden">
+      <table id="table3">
+        <caption>A complex table</caption>
+        <thead>
+         <tr>
+          <th colspan="3">Invoice #123456789</th>
+          <th>14 January 2025
+         </tr>
+         <tr>
+          <td colspan="2">
+           <strong>Pay to:</strong><br>
+           Acme Billing Co.<br>
+           123 Main St.<br>
+           Cityville, NA 12345
+          </td>
+          <td colspan="2">
+           <strong>Customer:</strong><br>
+           John Smith<br>
+           321 Willow Way<br>
+           Southeast Northwestershire, MA 54321
+          </td>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <th>Name / Description</th>
+          <th>Qty.</th>
+          <th>@</th>
+          <th>Cost</th>
+         </tr>
+         <tr>
+          <td>Paperclips</td>
+          <td>1000</td>
+          <td>0.01</td>
+          <td>10.00</td>
+         </tr>
+         <tr>
+          <td>Staples (box)</td>
+          <td>100</td>
+          <td>1.00</td>
+          <td>100.00</td>
+         </tr>
+        </tbody>
+        <tfoot>
+         <tr>
+          <th colspan="3">Subtotal</th>
+          <td> 110.00</td>
+         </tr>
+         <tr>
+          <th colspan="2">Tax</th>
+          <td> 8% </td>
+          <td>8.80</td>
+         </tr>
+         <tr>
+          <th colspan="3">Grand Total</th>
+          <td>$ 118.80</td>
+         </tr>
+        </tfoot>
+       </table>
     </div>
 
 

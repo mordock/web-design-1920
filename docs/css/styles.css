@@ -5,10 +5,8 @@
 }
 body {
   background-color: var(--dark);
-  color: var(--light);
   font-family: monospace;
   font-weight: bold;
-  font-size: 1.5em;
   line-height: 1.5;
   margin: 0;
 }
@@ -30,6 +28,10 @@ h1 {
 h2 {
   font-size: 2em;
   margin-top: 1.5em;
+}
+h3{
+  color: white;
+  font-size: 1.5em;
 }
 
 h3:focus{
@@ -64,31 +66,47 @@ section#lecturers img {
   margin-right: 1em;
 }
 
-#table1{
-  width:100%;
+#table3{
+  color: white;
   border-width:0 0 1px 1px;
   border-style:solid;
-  border-color: orange;
+  border-color: red;
 }
 
-/* table{
-  width:100%;
+#table3 th, #table3 td{
+  border-width:1px 1px 0 0;
+  border-style:solid;
+  border-color:red;
+}
+
+#table2{
   border-width:0 0 1px 1px;
   border-style:solid;
+  border-color: yellow;
+  color: white;
+  width: 50%;
+}
+
+#table2 th, #table2 td{
+  border-width:1px 1px 0 0;
+  border-style:solid;
+  border-color:yellow;
+}
+
+#table1{
+  font-size: 1.5em;
+  width:100%;
+  border-width:0 0 4px 4px;
+  border-style:solid;
   border-color: orange;
-} */
+  color: var(--light);
+}
 
 #table1 th{
   background: #666666;;
   color:#fff;
   font-size: 1em;
 }
-
-/* table th{
-  background: #666666;;
-  color:#fff;
-  font-size: 2em;
-} */
 
 #table1 th:focus{
   text-decoration: underline 5px red;
@@ -102,35 +120,14 @@ section#lecturers img {
   text-decoration: underline 5px red;
 }
 
-/* table th:focus{
-  text-decoration: underline 5px red;
-} */
-
-/* tr:focus{
-  text-decoration: underline 5px red;
-}
-
-td:focus{
-  text-decoration: underline 5px red;
-} */
-
 #table1 th, #table1 td{
   text-align:center;
-  border-width:1px 1px 0 0;
+  border-width:4px 4px 0 0;
   border-style:solid;
   border-color:orange;
   padding:4px 2px;
   font-size: 1em;
 }
-
-/* table th,table td{
-  text-align:center;
-  border-width:1px 1px 0 0;
-  border-style:solid;
-  border-color:orange;
-  padding:4px 2px;
-  font-size: 1em;
-} */
   
 .subTotatlRow .sub-total-text{
   text-align:right;
