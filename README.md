@@ -20,6 +20,7 @@ Deze week hebben we nog geen echte test gedaan met websites, we hebben vooral in
 
 ## mijn plan
 Voor deze test sessie had ik enkele verschillende tabellen gemaakt die andere kleuren en contrast hadden en andere layouts hadden. Hiermee wilde ik kijken wat Roger het prettigst vond. 
+Met het team hadden we ook enkele dingen voorbereid zoals wie in welk team zat en alle test link klaargezet. Daarnaast hadden we ook weer afgesproken dat Bas de basis van het gesprek zou leiden. Dit zorgde ervoor dat het gesprek erg gestroomlijnd was voor Roger en voor ons.
 
 ## Sessie
 Het begon een beetje moeilijk omdat de mic van Roger niet werkte, maar nadat dat was opgelost gingen de tests voorspoedig. We begonnen met alle grafieken en daarna degene met tabellen. 
