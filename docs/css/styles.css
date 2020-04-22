@@ -101,7 +101,7 @@ h3:focus{
   width:100%;
   border-width:0 0 4px 4px;
   border-style:solid;
-  border-color: orange;
+  border-color: red;
   color: var(--light);
 }
 
@@ -111,32 +111,52 @@ h3:focus{
 }
 
 #table1 th:focus{
-  text-decoration: underline 5px red;
+  background-color: orange;
+  color: black;
+
 }
 
 #table1 tr:focus{
-  text-decoration: underline 5px red;
+  background-color: orange;
+  color: black;
+
 }
 
 #table1 td:focus{
-  text-decoration: underline 5px red;
+  background-color: orange;
+  color: black;
+
+
 }
 
 #table1 th, #table1 td{
   text-align:center;
   border-width:4px 4px 0 0;
   border-style:solid;
-  border-color:orange;
+  border-color:red;
   padding:4px 2px;
 }
   
 .subTotatlRow .sub-total-text{
-  text-align:right !important; 
+  text-align:left !important; 
+  background-color: #777777;
 }
 
 .hidden{
   display: none;
 }
+
+#bigAssButton{
+  margin-top: 30px;
+  width: 500px;
+  height: 200px;
+  background-color: orange;
+  border-color: red;
+  border-width: 5px;
+  font-size: 10em;
+  font-weight: bold;
+}
+
 
 button{
   margin-top: 30px;

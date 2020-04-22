@@ -14,215 +14,130 @@
       <h1>Tabellen</h1>
     </header>
     <main>
-      <div id="table1Box">
-      <h3 tabindex="0">Hieronder zijn de corona zieken en sterfte getallen van maart en april te vinden. April is nog niet compleet. De maanden zijn in twee periodes opgesplitst en dan in individuele weken. Na elke maand is een sub totaal.<br>
-      In maart groeien de zieken en de sterfte gevallen extreem, elke week is er een verdubbeling of meer. In April stagneren de getallen. De week met de meeste zieken is Maart, week 4. De week met de meeste sterfgevallen is April week 1.
+      <div id="chromeIntro">
+        <button id="bigAssButton">Start</button>
+      </div>
+
+      <div id="beginning" class="hidden">
+        <h3 tabindex="0">Hallo Roger, vandaag ga we deze gepersonaliseerde site bekijken en bespreken wat je er van vindt. Ik wil je hierbij vragen om hardop na te denken.<br>
+          Voor deze site kan je je screen reader uitzetten. Je kan de tab toets gebruiken om door de site heen te gaan.
+        </h3>
+    </div>
+
+    <div id="tutorial" class="hidden">
+      <h3 tabindex="0">Ik ga je nu een snelle uitleg geven over de site. Je kan met de tab toets door de site heen navigeren. Met de shift toets kan je op elk moment de screenreader pauzeren. Door nogmaals op shift te drukken gaat die weer door.<br>
+        Als je op de alt toets druk kan je de laatst afgespeelde tekst opnieuw laten horen.  
       </h3>
+    </div>
+
+    <div id="tableDiv" class="hidden">
+      <h3>In deze tabel kan je enkele gegevens zien over kolencentrales in Nederland. <br>
+      Er is  bijvoorbeeld te zien dat het rendement over de laatste 30 jaar gestegen is. Het vermogen is hierdoor ook gestegen. De uitstoot is echter ook omhoog gegaan in enkele nieuwe centrales.</h3>
 
       <table id="table1" cellpadding="0" cellspacing="0">
-        <caption>Corona gevallen en sterfe cijfers</caption>
+        <caption>Informatie over kolencentrales in Nederland</caption>
         <thead>
-          <tr>      
-            <th tabindex="0" scope="col">Totale tijd</th>
-            <th tabindex="0" scope="col">Maand</th>
-            <th tabindex="0" scope="col">periode</th>
-            <th tabindex="0" scope="col">week</th>
-            <th tabindex="0" scope="col">Zieken</th>
-            <th tabindex="0" scope="col">Sterfte gevallen</th>
+          <tr id="header">      
+            <th tabindex="0" scope="col">Kolencentrale</th>
+            <th tabindex="0" scope="col">Bouwjaar</th>
+            <th tabindex="0" scope="col">vermogen(MW)</th>
+            <th tabindex="0" scope="col">rendement</th>
+            <th tabindex="0" scope="col">C02 uitstoot/jaar</th>
           </tr>
         </thead>
       
         <tbody>
-          <tr>
-            <td scope="row" rowspan="11" tabindex="0">Maart-April</td>
-            <td rowspan="4" tabindex="0">maart</td>
-            <td rowspan="2" tabindex="0">1-2</th>
-            <td tabindex="0">week 1</td>
-            <td tabindex="0">189</td>
-            <td tabindex="0">1</td>
+          <tr id="C1">
+            <td scope="row" tabindex="0">Delta - Borsele</td>
+            <td tabindex="0">1988</td>
+            <td tabindex="0">406</th>
+            <td rowspan="5" tabindex="0">38%</td>
+            <td tabindex="0">2.1</td>
           </tr>
-          <tr>
-            <td tabindex="0">week 2</th>
-            <td tabindex="0">947</td>
-            <td tabindex="0">19</td>
+          <tr id="C2">
+            <td tabindex="0">Essent - amercentrale</th>
+            <td tabindex="0">1981</td>
+            <td tabindex="0">645</th>
+            <td tabindex="0">2.1</td>
           </tr>
-        <tr>
-            <td rowspan="2" tabindex="0">2-2</th>
-            <td tabindex="0">week 3</td>
-            <td tabindex="0">3033</td>
-            <td tabindex="0">159</td>
+          <tr id="C3">
+            <td tabindex="0">Engie - Gelderland</th>
+            <td tabindex="0">1985</td>
+            <td tabindex="0">570</td>
+            <td tabindex="0">2.8</td>
           </tr>
-          <tr>
-            <td tabindex="0">week 4</th>
-            <td tabindex="0">8393</td>
-            <td tabindex="0">860</td>
+          <tr id="C4">
+            <td tabindex="0">Uniper - Maasvlakte 1</th>
+            <td tabindex="0">1988</td>
+            <td tabindex="0">500</th>
+            <td tabindex="0">3</td>
           </tr>
-          <tr class="subTotatlRow">
-            <td colspan="3" class="sub-total-text" tabindex="0">Sub Totaal</th>
-            <td tabindex="0">12595</td>
-            <td tabindex="0">1039</td>
+          <tr id="C5">
+            <td tabindex="0">Uniper - Maasvlakte 2</th>
+            <td tabindex="0">1989</td>
+            <td tabindex="0">500</th>
+            <td tabindex="0">3</td>
           </tr>
-       <tr>
-            <td rowspan="4" tabindex="0">april</td>
-            <td rowspan="2" tabindex="0">1-2</th>
-            <td tabindex="0">week 1</td>
-            <td tabindex="0">6985</td>
-            <td tabindex="0">1062</td>
+          <tr id="sub1" class="subTotatlRow">
+            <td class="sub-total-text" tabindex="0">Totaal oude centrales</th>
+            <td tabindex="0" class="sub-total-text" ></td>
+            <td tabindex="0" class="sub-total-text" >2621</td>
+            <td tabindex="0" class="sub-total-text" ></td>
+            <td tabindex="0" class="sub-total-text" >13.0</td>
           </tr>
-          <tr>
-            <td tabindex="0">week 2</th>
-            <td tabindex="0">7005</td>
-            <td tabindex="0">722</td>
+          <tr id="C6">
+            <td tabindex="0">NUON - hemweg</td>
+            <td tabindex="0">1995</th>
+            <td tabindex="0">630</td>
+            <td rowspan="2" tabindex="0">42%</td>
+            <td tabindex="0">4.0</td>
           </tr>
-        <tr>
-            <td rowspan="2" tabindex="0">2-2</th>
-            <td tabindex="0">week 3</td>
-            <td tabindex="0">0</td>
-            <td tabindex="0">0</td>
+          <tr id="C7">
+            <td tabindex="0">Essent - amercentrale</th>
+            <td tabindex="0">1994</td>
+            <td tabindex="0">630</td>
+            <td tabindex="0">3.6</td>
           </tr>
-          <tr>
-            <td tabindex="0">week 4</th>
-            <td tabindex="0">0</td>
-            <td tabindex="0">0</td>
+          <tr id="sub2" class="subTotatlRow">
+            <td class="sub-total-text" tabindex="0">Totaal centrale '90</th>
+            <td tabindex="0" class="sub-total-text"></td>
+            <td tabindex="0" class="sub-total-text">1230</td>
+            <td tabindex="0" class="sub-total-text"></td>
+            <td tabindex="0" class="sub-total-text">13.0</td>
           </tr>
-          <tr class="subTotatlRow">
-            <td colspan="3" class="sub-total-text" tabindex="0">Sub Totaal</th>
-            <td tabindex="0">26585</td>
-            <td tabindex="0">2823</td>
+          <tr id="C8">
+            <td tabindex="0">Engie - Maasvlakte</th>
+            <td tabindex="0">2015</td>
+            <td tabindex="0">800</td>
+            <td rowspan="3" tabindex="0">46%</td>
+            <td tabindex="0">3.2</td>
           </tr>
-        </tbody>
-      </table>
-
-      <button id="nextButton">Volgende</button>
-
-    </div>
-      
-    <div id="table2Box" class="hidden">   
-      <table id="table2">
-        <caption>
-          Imported and domestic orange and apple prices
-          in Sydney and Melbourne
-        </caption>
-        <thead>
-          <tr>
-            <td></td>
-            <th colspan="2" tabindex="0">Imported</th>
-            <th colspan="2" tabindex="0">Domestic</th>
+          <tr id="C9">
+            <td tabindex="0">Uniper - Maasvlakte</th>
+            <td tabindex="0">2016</td>
+            <td tabindex="0">1070</td>
+            <td tabindex="0">4.7</td>
           </tr>
-          <tr>
-            <td></td>
-            <th tabindex="0">Oranges</th>
-            <th tabindex="0">Apples</th>
-            <th tabindex="0">Oranges</th>
-            <th tabindex="0">Apples</th>
+          <tr id="C10">
+            <td tabindex="0">Essent - Eemshaven</th>
+            <td tabindex="0">2015</td>
+            <td tabindex="0">1560</td>
+            <td tabindex="0">8.3</td>
           </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th colspan="5" tabindex="0">Sydney</th>
-          </tr>
-          <tr>
-            <th tabindex="0">Wholesale</th>
-            <td tabindex="0">$1.00</td>
-            <td tabindex="0">$1.25</td>
-            <td tabindex="0">$1.20</td>
-            <td tabindex="0">$1.00</td>
-          </tr>
-          <tr>
-            <th tabindex="0">Retail</th>
-            <td tabindex="0">$2.00</td>
-            <td tabindex="0">$3.00</td>
-            <td tabindex="0">$1.80</td>
-            <td tabindex="0">$1.60</td>
-          </tr>
-          <tr>
-            <th colspan="5" tabindex="0">Melbourne</th>
-          </tr>
-          <tr>
-            <th tabindex="0">Wholesale</th>
-            <td tabindex="0">$1.20</td>
-            <td tabindex="0">$1.30</td>
-            <td tabindex="0">$1.00</td>
-            <td tabindex="0">$0.80</td>
-          </tr>
-          <tr>
-            <th tabindex="0">Retail</th>
-            <td tabindex="0">$1.60</td>
-            <td tabindex="0">$2.00</td>
-            <td tabindex="0">$2.00</td>
-            <td tabindex="0">$1.50</td>
+          <tr id="sub3" class="subTotatlRow">
+            <td class="sub-total-text" tabindex="0">Sub Totaal</th>
+            <td tabindex="0" class="sub-total-text"></td>
+            <td tabindex="0" class="sub-total-text">3430</td>
+            <td tabindex="0" class="sub-total-text"></td>
+            <td tabindex="0" class="sub-total-text">16.2</td>
           </tr>
         </tbody>
       </table>
-      <button id="backButton2">Terug</button>
-      <button id="nextButton2">Volgende</button>
     </div>
 
-    <div id="table3Box" class="hidden">
-      <table id="table3">
-        <caption>Transactie gegevens</caption>
-        <thead>
-         <tr>
-          <th colspan="3" tabindex="0">Nummer #123456789</th>
-          <th tabindex="0">14 Januari 2025
-         </tr>
-         <tr>
-          <td colspan="2" tabindex="0">
-           <strong>Betalen naar:</strong><br>
-           Acme Billing Co.<br>
-           Biepboepstraat 456<br>
-           Amsterdam, 1098RZ
-          </td>
-          <td colspan="2" tabindex="0">
-           <strong>Klant:</strong><br>
-           John Smith<br>
-           Koekoekstraat 420<br>
-           Diemen, 1113HB
-          </td>
-         </tr>
-        </thead>
-        <tbody>
-         <tr>
-          <th tabindex="0">Naam / Beschrijving</th>
-          <th tabindex="0">Hoeveelheid.</th>
-          <th tabindex="0">@</th>
-          <th tabindex="0">Cost</th>
-         </tr>
-         <tr>
-          <td tabindex="0">Paperclips</td>
-          <td tabindex="0">1000</td>
-          <td tabindex="0">0.01</td>
-          <td tabindex="0">10.00</td>
-         </tr>
-         <tr>
-          <td tabindex="0">Nietjes (Doos)</td>
-          <td tabindex="0">100</td>
-          <td tabindex="0">1.00</td>
-          <td tabindex="0">100.00</td>
-         </tr>
-        </tbody>
-        <tfoot>
-         <tr class="subTotatlRow">
-          <th colspan="3" tabindex="0" class="sub-total-text">Subtotaal</th>
-          <td tabindex="0"> 110.00</td>
-         </tr>
-         <tr class="subTotatlRow">
-          <th colspan="2" tabindex="0" class="sub-total-text">Belasting</th>
-          <td tabindex="0"> 21% </td>
-          <td tabindex="0">8.80</td>
-         </tr>
-         <tr class="subTotatlRow">
-          <th colspan="3" tabindex="0" class="sub-total-text">Totaal</th>
-          <td tabindex="0">$ 118.80</td>
-         </tr>
-        </tfoot>
-       </table>
+      <button id="next" class="hidden">volgende</button><br>
 
-       <h3>Transactie informatie over een klant die paperclips en nietjes koopt</h3>
-
-       <button id="backButton3">Terug</button>
-    </div>
-
+      <!-- <button id="stop">STOP</button> -->
 
     <script src="./js/app.js"></script>
     <footer>
