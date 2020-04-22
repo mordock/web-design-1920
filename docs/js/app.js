@@ -1,7 +1,7 @@
 let body = document.getElementsByTagName('body');
 
 let testButton = document.getElementById('button');
-let stopB = document.getElementById('stop');
+// let stopB = document.getElementById('stop');
 let nextButton = document.getElementById('next');
 let introButton = findElement('chromeIntro');
 
@@ -89,10 +89,10 @@ window.onload = function(){
 }
 
 //event listeners
-stopB.addEventListener('focus', function(){
-    synth.cancel();
+// stopB.addEventListener('focus', function(){
+//     synth.cancel();
 
-});
+// });
 
 introButton.addEventListener('click', function(){
     init();
