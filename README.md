@@ -18,7 +18,7 @@ Deze week hebben we nog geen echte test gedaan met websites, we hebben vooral in
 
 # Week 2 verslag
 
-## mijn plan
+## Mijn plan
 Voor deze test sessie had ik enkele verschillende tabellen gemaakt die andere kleuren en contrast hadden en andere layouts hadden. Hiermee wilde ik kijken wat Roger het prettigst vond. 
 Met het team hadden we ook enkele dingen voorbereid zoals wie in welk team zat en alle test link klaargezet. Daarnaast hadden we ook weer afgesproken dat Bas de basis van het gesprek zou leiden. Dit zorgde ervoor dat het gesprek erg gestroomlijnd was voor Roger en voor ons.
 
@@ -26,6 +26,17 @@ Met het team hadden we ook enkele dingen voorbereid zoals wie in welk team zat e
 Het begon een beetje moeilijk omdat de mic van Roger niet werkte, maar nadat dat was opgelost gingen de tests voorspoedig. We begonnen met alle grafieken en daarna degene met tabellen. 
 Tijdens meerdere testen zijn we er achter gekomen dat zijn screenreader niet altijd alles leest zoals wij dat verwachtte. Hierdoor werkte veel concepten niet helemaal. Ditzelfde probleem had ik met mijn tabellen. Ik was er vanuit gegaan dat de screenreader een voor een elementen voorlas, en alleen als ze geselecteerd waren. Dit was niet het geval en hij las de hele pagina in een keer voor. 
 Dit in combinatie met enkele voorbeelden van anderen heeft ervoor gezorgd dat ik mijn concept heb veranderd. Meer hadden de ingebouwde voice van javascript gebruikt als vervanging van zijn screenreader. Hier ga ik ook mee werken en dan een site maken die een voor een informatie laat zien. Dit zorgt ervoor dat het niet te veel wordt voor Roger als hij zijn eigen screen reader gebruikt. 
+
+# Week 3 verslag
+
+## Mijn plan
+Na de feedback en test van vorige week had ik gezien dat de screenreader van Roger niet altijd perfect doet wat hij wil. Dit is ook iets waar ik geen invloed op heb als developer. Daarom had ik het idee om zelf een mini screenreader te maken specifiek voor mijn site. Hiermee had ik invloed over wanneer de screen reader wat zei, wanneer die wat zei hoe snel die sprak en of die op pauze kon. 
+Voor mijn test had ik een paar simpele pagina's gemaakt die het concept en gebruik van de screen reader uitlegde. Daarnaast had ik een tabel gemaakt over energie in Nederland waar de screenreader doorheen kon werken. 
+
+## Sessie
+We hadden als team weer afgesproken om dezelfde opzet als vorige week te gebruiken. Éen persoon deed de intro en introduceerde de mensen en een voor een deden we onze test. Deze week hadden we ook het probleem dat we Roger niet konden horen maar dat was dit keer binnen 5 minuten opgelost. 
+Mijn test begon oke en de screen reader deed wat hij moest doen. Bij de tabel ging het jammer genoeg een beetje mis omdat de tab toets niet goed werkte. Daardoor kon Roger niet door de  tabel heen, hij kon wel de muis gebruiken maar dat gaf niet hetzelfde effect. Hij gaf wel goede feedback dat hij er niet op tegen was om een andere screenreader te gebruiken voor een site, maar dat het hem dus wel tijd zou kosten om de nieuwe toetsen te leren. Het was dus belangrijk om herkenbare toetsen te gebruiken. 
+Na deze test ben ik van plan om wel met dit design door te gaan. Ik heb genoeg feedback om verbeteringen te kunnen maken en het hopelijk bruikbaar voor Roger te krijgen. 
 
 # Web Design @cmda-minor-web 1920
 //Interactie ontwerpen: Rapid prototypen en testen met echte mensen
