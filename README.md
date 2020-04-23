@@ -38,6 +38,11 @@ We hadden als team weer afgesproken om dezelfde opzet als vorige week te gebruik
 Mijn test begon oke en de screen reader deed wat hij moest doen. Bij de tabel ging het jammer genoeg een beetje mis omdat de tab toets niet goed werkte. Daardoor kon Roger niet door de  tabel heen, hij kon wel de muis gebruiken maar dat gaf niet hetzelfde effect. Hij gaf wel goede feedback dat hij er niet op tegen was om een andere screenreader te gebruiken voor een site, maar dat het hem dus wel tijd zou kosten om de nieuwe toetsen te leren. Het was dus belangrijk om herkenbare toetsen te gebruiken. 
 Na deze test ben ik van plan om wel met dit design door te gaan. Ik heb genoeg feedback om verbeteringen te kunnen maken en het hopelijk bruikbaar voor Roger te krijgen. 
 
+# User scenario
+Roger heeft intresse in groene energie en energie gebruik in Nederland. Hij wil informatie weten over de Kolencentrales die nog actief zijn in Nederland om te kijken of hij Q42 kan helpen met een app maken die mensen hierover zou moeten informeren. Roger vindt wat grafieken maar zijn screenreader kan de informatie niet goed voor hem oplezen waardoor hij heel veel energie moet steken in het zelf proberen te lezen. 
+In plaats daarvan gaat hij naar de site die een student van de HvA had gemaakt. Deze heeft een screenreader die speciaal gemaakt is voor tabellen. Hiermee kan hij vakje voor vakje door de tabel heen en zo de informatie goed tot zich innemen. Hiervoor moet hij heel even zijn eigen screenreader uitzetten zodat hij dingen niet dubbel hoort. 
+Na het gebruik van de site denkt Roger dat hij deze tabel goed kan gebruiken voor de app en laat deze bij Q42 zien.
+
 # Web Design @cmda-minor-web 1920
 //Interactie ontwerpen: Rapid prototypen en testen met echte mensen
 
