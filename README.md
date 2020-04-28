@@ -43,6 +43,18 @@ Roger heeft intresse in groene energie en energie gebruik in Nederland. Hij wil 
 In plaats daarvan gaat hij naar de site die een student van de HvA had gemaakt. Deze heeft een screenreader die speciaal gemaakt is voor tabellen. Hiermee kan hij vakje voor vakje door de tabel heen en zo de informatie goed tot zich innemen. Hiervoor moet hij heel even zijn eigen screenreader uitzetten zodat hij dingen niet dubbel hoort. 
 Na het gebruik van de site denkt Roger dat hij deze tabel goed kan gebruiken voor de app en laat deze bij Q42 zien.
 
+# Reflectie
+Na de laatste testronde waren er meerdere dingen die beter hadden kunnen gaat tijdens het testen 
+## voorbereiding vragen
+Voor de tests had ik altijd wel een product klaar om te testen, maar ik had meestal weinig vragen echt voorbereid. Dit is iets wat ik bij andere beter zag gaan. Zij hadden misschien geen volledig product maar wisten precies wat ze wilden vragen waardoor de test alsnog heel goed ging. Dit is iets wat ik de volgende keer het voornaamst beter wil doen. Je kan een product hebben om te laten zien, maar als je niet weet wat je er mee wilt doen, gaat je test alsnog erg middelmatig.
+
+## task based testen
+De paar dingen die ik wel had voorbereid waren vooral hele algemene dingen zoals wat hij van dingen vond etc. De laatste test had mogelijk effectiefer kunnen zijn als ik meer gebruik had gemaakt van task based testing. Hiermee had Roger echt de app moeten gebruiken en had ik meer te te weten kunnen komen. Vooral bij de functionaliteit van de custom screen reader had dit handig geweest. Vragen zoals 'zet het volgende stuk tekst op pauze en start deze dan opnieuw op'. Dit had meer duidelijkheid kunnen geven of de toetsen duidelijk waren. 
+
+## testpersoon laten ontdekken
+Dit is iets wat vooral bij de laatste test van pas kwam omdat er daar wat meer te testen was, maar ik wilde soms iets te snel iets zeggen of Roger helpen. Hierdoor ben ik mogelijk wat interessant informatie verloren omdat hij het zelf niet kon uitzoeken. Hoewel dit deels ook weer samen komt bij de voorbereiding wil ik er ook voor zorgen dat ik mijn testpersoon de ruimte geef om zelf de website te ontdekken.
+
+
 # Web Design @cmda-minor-web 1920
 //Interactie ontwerpen: Rapid prototypen en testen met echte mensen
 
