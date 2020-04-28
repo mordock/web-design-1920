@@ -6,36 +6,37 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
   <link rel="stylesheet" href="css/styles.css">
-  <title>Tabellen test</title>
+  <title>Site met custom screen reader</title>
 
 </head>
   <body>
     <header>
-      <h1>Tabellen</h1>
+      <h1>Custom screen reader</h1>
     </header>
     <main>
+      <div class="gridBottom">
+        <div class="top">
       <div id="chromeIntro">
         <button id="bigAssButton">Start</button>
       </div>
 
       <div id="beginning" class="hidden">
-        <h3 tabindex="0">Hallo Roger, vandaag ga we deze gepersonaliseerde site bekijken en bespreken wat je er van vindt. Ik wil je hierbij vragen om hardop na te denken.<br>
-          Voor deze site kan je je screen reader uitzetten. Je kan de tab toets gebruiken om door de site heen te gaan.
+        <h3 tabindex="0">Hallo Roger, hoe gaat het met je vandaag? Je kan hier verderop een tabel vinden over wat informatie van kolencentrales in Nederland.<br>
+          Voor deze site kan je je screen reader uitzetten. Je kan de muis of de tab toets gebruiken om de site te gebruiken.
         </h3>
     </div>
 
     <div id="tutorial" class="hidden">
-      <h3 tabindex="0">Ik ga je nu een snelle uitleg geven over de site. Je kan met de tab toets door de site heen navigeren. Met de shift toets kan je op elk moment de screenreader pauzeren. Door nogmaals op shift te drukken gaat die weer door.<br>
-        Als je op de alt toets druk kan je de laatst afgespeelde tekst opnieuw laten horen.  
+      <h3 tabindex="0">Ik ga je nu een snelle uitleg geven over de site. Onderaan de website staat enkele knoppen om te de screen reader te gebruiken. Hiermee kan je de tekst pauzeren en de laatst gesproken tekst herhalen. Pauzeren kan ook met shift en herhalen met de r toets.<br>
+        Met de vakjes daarnaast kan je het volume en de spraak snelheid van de stem aanpassen als dit nodig is. 
       </h3>
     </div>
 
     <button id="next" class="hidden">volgende</button><br>
 
-
     <div id="tableDiv" class="hidden">
       <h3>In deze tabel kan je enkele gegevens zien over kolencentrales in Nederland. <br>
-      Er is  bijvoorbeeld te zien dat het rendement over de laatste 30 jaar gestegen is. Het vermogen is hierdoor ook gestegen. De uitstoot is echter ook omhoog gegaan in enkele nieuwe centrales.</h3>
+      Er is bijvoorbeeld te zien dat het rendement over de laatste30 jaar gestegen is. Het vermogen is hierdoor ook gestegen. De uitstoot is ook gestegen omdat er grotere centrales zijn gebouwd.</h3>
 
       <table id="table1" cellpadding="0" cellspacing="0">
         <caption>Informatie over kolencentrales in Nederland</caption>
@@ -138,8 +139,37 @@
       </table>
     </div>
       <!-- <button id="stop">STOP</button> -->
+    </div>
+
+        <div class="bottom">
+          <form>
+            <label>
+              <h2>Spraak snelheid</h2>
+              <input id="rangeSpeed" type="range" min="0" max="2" step=".1" oninput="range_weight_disp.value = (rangeSpeed.value * 100).toFixed(0)">
+              <output class="bubble" id="range_weight_disp">100</output>
+            </label>
+
+            <label>
+              <h2>Stem volume</h2>
+              <input id="rangeVolume" type="range" min="0" max="1" step=".1" oninput="range_weight_disp_volume.value = (rangeVolume.value * 100).toFixed(0)">
+              <output class="bubble" id="range_weight_disp_volume">100</output>
+            </label>
+
+            <label>
+              <h2>Herhaal laatste tekst</h2>
+              <button id="repeatButton" onclick="return false">Herhaal</button>
+            </label>
+
+            <label>
+              <h2>Pauzeer tekst tekst</h2>
+              <button id="pauseButton" onclick="return false">Pauzeer</button>
+            </label>
+          </form>
+        </div>
+      </div>
 
     <script src="./js/app.js"></script>
+    <script src="./js/table.js"></script>
     <footer>
     </footer>
     </main>

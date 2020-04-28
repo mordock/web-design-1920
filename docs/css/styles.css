@@ -11,21 +11,25 @@ body {
   margin: 0;
 }
 main {
-  max-width: 1400px;
+  max-width: 1500px;
   margin: 10vh auto;
 }
 header {
   background: var(--course);
   color: var(--dark);
-  height: 20vh;
+  height: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+img{
+  max-height: 160px;
 }
 h1 {
   font-size: 5em;
 }
 h2 {
+  color: white;
   font-size: 2em;
   margin-top: 1.5em;
 }
@@ -36,6 +40,14 @@ h3{
 
 h3:focus{
   text-decoration: underline 5px red;
+}
+
+output{
+  color: white;
+}
+
+.bubble{
+  font-size: 2em;
 }
 
 #table3{
@@ -125,8 +137,6 @@ h3:focus{
 #table1 td:focus{
   background-color: orange;
   color: black;
-
-
 }
 
 #table1 th, #table1 td{
@@ -146,6 +156,18 @@ h3:focus{
   display: none;
 }
 
+.gridBottom{
+  display: grid;
+  grid-template-rows: auto 10%;
+}
+
+.bottom{
+  /* margin-top: 100px; */
+  grid-row-start: 2;
+  grid-row-end: 2;
+  justify-self: start;
+}
+
 #bigAssButton{
   margin-top: 30px;
   width: 500px;
@@ -157,9 +179,7 @@ h3:focus{
   font-weight: bold;
 }
 
-
 button{
-  margin-top: 30px;
   width: 200px;
   height: 50px;
   background-color: orange;
@@ -172,4 +192,43 @@ button{
 button:focus{
   border-color: ghostwhite;
   text-decoration: underline 5px red;
+}
+
+label{
+  min-height: 170px;
+  padding-top: 15px;
+  border-radius: 3px;
+  border-color: red;
+  border-style: solid;
+  float: right;
+  padding: 7px;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 5px 0;
+  width: 100%;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 15px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  background: red;
+  border-radius: 1px;
+  border: 0.2px solid #010101;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 45px;
+  width: 20px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -16px;
 }
