@@ -54,6 +54,14 @@ De paar dingen die ik wel had voorbereid waren vooral hele algemene dingen zoals
 ## testpersoon laten ontdekken
 Dit is iets wat vooral bij de laatste test van pas kwam omdat er daar wat meer te testen was, maar ik wilde soms iets te snel iets zeggen of Roger helpen. Hierdoor ben ik mogelijk wat interessant informatie verloren omdat hij het zelf niet kon uitzoeken. Hoewel dit deels ook weer samen komt bij de voorbereiding wil ik er ook voor zorgen dat ik mijn testpersoon de ruimte geef om zelf de website te ontdekken.
 
+# exclusive design principles
+## Study situation
+
+## Ignore conventions
+
+## Prioritise identity
+
+## Add nonsense
 
 # Web Design @cmda-minor-web 1920
 //Interactie ontwerpen: Rapid prototypen en testen met echte mensen
