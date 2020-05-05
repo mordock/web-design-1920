@@ -70,6 +70,10 @@ De meeste sites zijn is een erg professionele manier geschreven en praat niet te
 Wat ook vaak wordt gedaan is dat je een overzicht of home page hebt en dat je via daar verder door kan. Dit werkt voor een screen reader niet altijd lekker omdat deze dan als een malle door de pagina heen gaat. Daarom heb ik besloten om mijn website in delen op te splitsen. Dit zorgt ervoor dat er niet te veel tekst tegelijkertijd op het scherm is. 
 
 ## Add nonsense
+Tijdens week 3 had ik een grote start knop gemaakt voor Roger om ervoor te zorgen dat de screen reader begon met praten, dit was origineel een technische oplossing. Uiteindelijk heb ik de knop zo groot gemaakt dat Roger er zelf een opmerking over maakte en de grap maakte dat hij de knop niet kon zien. Tijdens testen heb ik gemerkt dat Roger fonts van 2em of hoger makkelijk kan zien. Bij deze knop echter heb ik de fontsize naar 10em gezet... Dit zorgde voor een komisch grote knop. 
+Als followup heb ik in de screenreader ingebouw dat hij een extra stukje tekst opnoemt als je hierop druk:  
+'deze start knop is nog steeds groot genoeg hoop ik, hue hue hue'.  
+Hierbij heb ik geprobeerd om de screen reader te laten lachen.
 
 [Rubric](https://docs.google.com/spreadsheets/d/1no32c9YyAP78VMcqfA5i5at2OrxP9ce1d8dVGnii4Vs/)
 
