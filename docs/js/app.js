@@ -31,14 +31,24 @@ let isPaused = false;
 //control vars
 let controlInt = 1;
 
+preInit();
+
+function preInit(){
+    rangeVolume.value = 1;
+    range.value = 0.85;
+}
+
 function init(){
     //inital setup of speech
+
+
     utter.pitch = 1;
     utter.rate = .85;
-    utter.lang = 'nl-NL'
+    utter.volume = 1;
+    utter.lang = 'nl-NL';
     console.log('bob');
-    speak('Hallo Rogé, hoe gaat het met je vandaag? Je kan hier verderop een tabel vinden over wat informatie van kolencentrales in Nederland.');
-    speak('Voor deze site kan je je screen reader uitzetten. Je kan de muis of de tab toets gebruiken om de site te gebruiken.')
+    speak('deze start knop is nog steeds groot genoeg hoop ik, hue hue hue. Hallo Rogé, hoe gaat het met je vandaag? Je kan hier verderop een tabel vinden over wat informatie van kolencentrales in Nederland.');
+    speak('Voor deze site kan je je screen reader uitzetten. Je kan de muis of de tab toets gebruiken om de site te navigeren.')
 }
 
 window.addEventListener('keydown', function(e){
@@ -143,6 +153,7 @@ nextButton.addEventListener('click', function(){
 });
 
 function speak(message){
+    console.log('boe');
     utter.text = message;
     lastSpokenText = message;
     synth.speak(utter);
