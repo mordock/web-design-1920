@@ -56,12 +56,17 @@ Dit is iets wat vooral bij de laatste test van pas kwam omdat er daar wat meer t
 
 # exclusive design principles
 ## Study situation
-
-## Ignore conventions
+Roger heeft een Windows PC waar hij alleen Chrome op gebruikt en een Iphone 11 waar hij Safari op gebruikt. Voor dit van heb ik iets gemaakt wat speciaal voor zijn Chrome browser werkt.
 
 ## Prioritise identity
+Binnen de site probeer is Roger zoveel mogelijk persoonlijk aan de te spreken. Dit doe ik door zijn eigen naar te gebruiken en de jij vorm aan te houden. Hierdoor hoop ik dat het voor hem als zijn site aanvoelt zodat hij er een persoonlijk connectie mee legt. 
+
+## Ignore conventions
+De meeste sites zijn is een erg professionele manier geschreven en praat niet tegen de gebruiker zelf. Dit doe ik juist om de site een persoonlijk gevoel te geven.
+Wat ook vaak wordt gedaan is dat je een overzicht of home page hebt en dat je via daar verder door kan. Dit werkt voor een screen reader niet altijd lekker omdat deze dan als een malle door de pagina heen gaat. Daarom heb ik besloten om mijn website in delen op te splitsen. Dit zorgt ervoor dat er niet te veel tekst tegelijkertijd op het scherm is. 
 
 ## Add nonsense
+
 
 # Web Design @cmda-minor-web 1920
 //Interactie ontwerpen: Rapid prototypen en testen met echte mensen
