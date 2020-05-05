@@ -22,12 +22,12 @@
 
       <div id="beginning" class="hidden">
         <h3 tabindex="0">Hallo Roger, hoe gaat het met je vandaag? Je kan hier verderop een tabel vinden over wat informatie van kolencentrales in Nederland.<br>
-          Voor deze site kan je je screen reader uitzetten. Je kan de muis of de tab toets gebruiken om de site te gebruiken.
+          Voor deze site kan je je screen reader uitzetten. Je kan de muis of de tab toets gebruiken om de site te navigeren.
         </h3>
     </div>
 
     <div id="tutorial" class="hidden">
-      <h3 tabindex="0">Ik ga je nu een snelle uitleg geven over de site. Onderaan de website staat enkele knoppen om te de screen reader te gebruiken. Hiermee kan je de tekst pauzeren en de laatst gesproken tekst herhalen. Pauzeren kan ook met shift en herhalen met de r toets.<br>
+      <h3 tabindex="0">Ik ga je nu een snelle uitleg geven over de site. Onderaan de website staan enkele knoppen om te de screen reader te gebruiken. Hiermee kan je de tekst pauzeren en de laatst gesproken tekst herhalen. Pauzeren kan ook met shift en herhalen met de r toets.<br>
         Met de vakjes daarnaast kan je het volume en de spraak snelheid van de stem aanpassen als dit nodig is. 
       </h3>
     </div>
@@ -35,8 +35,8 @@
     <button id="next" class="hidden">volgende</button><br>
 
     <div id="tableDiv" class="hidden">
-      <h3>In deze tabel kan je enkele gegevens zien over kolencentrales in Nederland. <br>
-      Er is bijvoorbeeld te zien dat het rendement over de laatste30 jaar gestegen is. Het vermogen is hierdoor ook gestegen. De uitstoot is ook gestegen omdat er grotere centrales zijn gebouwd.</h3>
+      <h3>In deze tabel kan je enkele gegevens zien over kolencentrales in Nederland. Deze zijn opgedeeld in 3 groepen, centrales voor jaren 90, centrales na jaren 90 en centrales in de laatje 10 jaar.<br>
+      Er is bijvoorbeeld te zien dat het rendement over de laatste 30 jaar gestegen is. Het vermogen is hierdoor ook gestegen. De uitstoot is ook gestegen omdat er grotere centrales zijn gebouwd.</h3>
 
       <table id="table1" cellpadding="0" cellspacing="0">
         <caption>Informatie over kolencentrales in Nederland</caption>
@@ -146,7 +146,7 @@
             <label>
               <h2>Spraak snelheid</h2>
               <input id="rangeSpeed" type="range" min="0" max="2" step=".1" oninput="range_weight_disp.value = (rangeSpeed.value * 100).toFixed(0)">
-              <output class="bubble" id="range_weight_disp">100</output>
+              <output class="bubble" id="range_weight_disp">90</output>
             </label>
 
             <label>
@@ -157,12 +157,12 @@
 
             <label>
               <h2>Herhaal laatste tekst</h2>
-              <button id="repeatButton" onclick="return false">Herhaal</button>
+              <button id="repeatButton" class="settingButton" onclick="return false">Herhaal</button>
             </label>
 
             <label>
               <h2>Pauzeer tekst tekst</h2>
-              <button id="pauseButton" onclick="return false">Pauzeer</button>
+              <button id="pauseButton" class="settingButton" onclick="return false">Pauzeer</button>
             </label>
           </form>
         </div>

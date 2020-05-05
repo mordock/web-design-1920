@@ -35,7 +35,7 @@ preInit();
 
 function preInit(){
     rangeVolume.value = 1;
-    range.value = 0.85;
+    range.value = .9;
 }
 
 function init(){
@@ -43,11 +43,11 @@ function init(){
 
 
     utter.pitch = 1;
-    utter.rate = .85;
+    utter.rate = .9;
     utter.volume = 1;
     utter.lang = 'nl-NL';
     console.log('bob');
-    speak('deze start knop is nog steeds groot genoeg hoop ik, hue hue hue. Hallo Rogé, hoe gaat het met je vandaag? Je kan hier verderop een tabel vinden over wat informatie van kolencentrales in Nederland.');
+    speak('deze start knop is nog steeds groot genoeg hoop ik, ha ha ha.   Hallo Rogé, hoe gaat het met je vandaag? Je kan hier verderop een tabel vinden over wat informatie van kolencentrales in Nederland.');
     speak('Voor deze site kan je je screen reader uitzetten. Je kan de muis of de tab toets gebruiken om de site te navigeren.')
 }
 
@@ -141,12 +141,12 @@ nextButton.addEventListener('click', function(){
     if(controlInt === 1){
         hideAndReveal(beginning, tutorial);
         synth.cancel();
-        speak('Ik ga je nu een snelle uitleg geven over de site. Onderaan de website staat enkele knoppen om te de screen reader te gebruiken. Hiermee kan je de tekst pauzeren en de laatst gesproken tekst herhalen. Pauzeren kan ook met shift en herhalen met de r toets.');
+        speak('Ik ga je nu een snelle uitleg geven over de site. Onderaan de website staan enkele knoppen om te de screen reader te gebruiken. Hiermee kan je de tekst pauzeren en de laatst gesproken tekst herhalen. Pauzeren kan ook met shift en herhalen met de r toets.');
         speak('Met de vakjes daarnaast kan je het volume en de spraak snelheid van de stem aanpassen als dit nodig is. ');
         controlInt++;
     }else if(controlInt === 2){
         hideAndReveal(tutorial, table);
-        speak('In deze tabel kan je enkele gegevens zien over kolencentrales in Nederland.');
+        speak('In deze tabel kan je enkele gegevens zien over kolencentrales in Nederland. Deze zijn opgedeeld in 3 groepen, centrales voor jaren 90, centrales na jaren 90 en centrales in de laatje 10 jaar.');
         speak('Er is  bijvoorbeeld te zien dat het rendement over de laatste 30 jaar gestegen is. Het vermogen is hierdoor ook gestegen. De uitstoot is echter ook omhoog gegaan in enkele nieuwe centrales.');
         controlInt++;
     }

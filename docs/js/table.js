@@ -55,7 +55,7 @@ let sub1 = findElement('sub1');
     Centrale6.children[0].addEventListener('focusin', () => {speak('Kolencentrale NUON');});
     Centrale6.children[1].addEventListener('focusin', () => {speak('Bouwjaar 1995');});
     Centrale6.children[2].addEventListener('focusin', () => {speak('Vermogen 630 Mega Watt');});
-    Centrale6.children[3].addEventListener('focusin', () => {speak('Rendement 42% voor alle oude centrales');});
+    Centrale6.children[3].addEventListener('focusin', () => {speak('Rendement 42% voor alle centralen in de jaren 90');});
     Centrale6.children[4].addEventListener('focusin', () => {speak('4.0 Megaton uitstoot per jaar');});
     
     Centrale7.children[0].addEventListener('focusin', () => {speak('Kolencentrale Essent');});
